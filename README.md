@@ -1,6 +1,7 @@
 # learnInPublic
 Day to Day / Weekend to Weekend Learning doc
 
+## EnableJpaAuditing
 1. @EnableJpaAuditing Annotaion in Spring framework - can be used optionally to enable auditing of JPA entity.
 2. @EnableJpaAuditing is to automatically populate certain fields in JPA entities, such as created by, creation date, last modified by, and last modification date.
 3. Use in Main Class of Spring Boot App.
@@ -38,3 +39,15 @@ Day to Day / Weekend to Weekend Learning doc
 
     // You'll need to call these methods appropriately when creating or updating entities
 } `
+
+## Solr
+
+Why Use Solr Alongside JPA:
+Enhanced Search Capabilities: Solr provides advanced search features, including full-text search, faceted search, and geospatial search. If your application requires sophisticated search functionality, integrating Solr can significantly enhance the user experience.
+
+Diverse Data Sources: Solr is not limited to relational databases. It can index data from various sources, including JSON, XML, and CSV. This flexibility is beneficial when dealing with diverse data formats.
+
+Scalability and Performance: Solr is designed for high scalability and performance in search operations. If your application needs to handle large volumes of data and perform complex searches, Solr can be a valuable addition.
+
+Separation of Concerns: JPA focuses on persisting and retrieving structured data from relational databases, while Solr focuses on providing efficient search capabilities. Combining the two allows each component to excel in its specialized domain.
+
