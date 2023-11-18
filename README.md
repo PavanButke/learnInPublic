@@ -51,3 +51,8 @@ Scalability and Performance: Solr is designed for high scalability and performan
 
 Separation of Concerns: JPA focuses on persisting and retrieving structured data from relational databases, while Solr focuses on providing efficient search capabilities. Combining the two allows each component to excel in its specialized domain.
 
+## React.Fragment
+
+React.Fragment is a built-in component in React that provides a way to group multiple elements together without adding an extra node to the DOM.
+
+In JSX, when you return multiple elements from a component, they must be enclosed in a single parent element
